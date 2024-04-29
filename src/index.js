@@ -10,7 +10,7 @@ cat_select.addEventListener('change', event => {
     loader.classList.remove('hidden');
         const breedId = event.target.value
         fetchCatByBreed(breedId).then(({ data })=> {
-            console.log(data);
+     
           const description = data[0].breeds[0].description;
           const name= data[0].breeds[0].name;
           const url= data[0].url;
