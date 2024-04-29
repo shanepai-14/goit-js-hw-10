@@ -52,7 +52,7 @@ function select_cats() {
       });
 }
 function createSelectOptions(name,id){
-    console.log(name);
+   
     cat_select.insertAdjacentHTML('beforeend', `<option value="${id}">${name}</option>`);
    
 }

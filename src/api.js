@@ -18,7 +18,7 @@ export function get_cats() {
         return response.json();
     })
     .then(data => {
-        console.log(data);
+     
       return {data};
     });
 }
@@ -35,7 +35,7 @@ export function fetchCatByBreed(breedId) {
     }
     )
       .then(data => {
-          console.log(data);
+    
         return {data};
       });
   }
